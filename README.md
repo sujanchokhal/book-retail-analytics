@@ -38,12 +38,15 @@ From the local database, the following insightful has been included.
 ![image](https://github.com/user-attachments/assets/38d2e035-39b8-4e2a-8b12-8b9b293dd8c7)
 
 2.	Which are the top 5 books by rating?
+
 ![image](https://github.com/user-attachments/assets/5204b44a-6422-4070-bdc3-f85e8d03548b)
 
 3.	Which categories have the most 5-star rated books?
+
 ![image](https://github.com/user-attachments/assets/9476b6f6-3802-4e15-94f1-0110b1bc15c9)
 
 4.	Which books are priced above the overall average price?
+
 ![image](https://github.com/user-attachments/assets/79b38eb1-23a1-4c65-b158-131c9a33d7dd)
 
  **  Visualization**
@@ -55,11 +58,17 @@ visual showing the output of the queries but included a slicer on the side.
 
 **Project Structure**
 **File	Description**
+
 scrape_products.py	(Python script to scrape book and category data)
+
 categories.csv	(Cleaned data of all book categories)
+
 products.csv	(Book-level data including price, stock, and rating)
+
 setup_bookstore_database.sql	(SQL schema with tables, keys, and constraints)
+
 analysis_queries.sql	(Business queries for insights)
+
 Book_Retail_Insights.pbix	(Power BI dashboard with interactive filters)
 
 
